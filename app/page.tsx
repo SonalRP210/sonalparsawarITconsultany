@@ -1,6 +1,6 @@
 "use client";
 
-import { FaTools, FaCloud, FaBolt, FaCogs, FaBriefcase, FaPhone } from "react-icons/fa";
+import { FaTools, FaCogs, FaBriefcase, FaPhone } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -9,24 +9,24 @@ export default function Home() {
       {/* Hero / Header */}
       <header className="text-center max-w-4xl">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-500 mb-4">
-		  Sonal Parsawar IT Consultancy
-		</h1>
+          Sonal Parsawar IT Consultancy
+        </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-6">
           Building scalable backend systems and cloud solutions for startups and enterprises.
         </p>
 
         {/* Laptop illustration */}
         <img
-		  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1920&q=80"
-		  alt="Software engineer professional working on laptop in modern office"
-		  className="w-full max-h-screen object-cover animate-float rounded-lg shadow-xl"
-		/>
+          src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1920&q=80"
+          alt="Software engineer professional working on laptop in modern office"
+          className="w-full max-h-screen object-cover animate-float rounded-lg shadow-xl"
+        />
       </header>
 
       {/* Services */}
       <section className="w-full max-w-4xl text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 flex items-center justify-center gap-3">
-          <FaTools className="text-indigo-600" /> Services
+          <span className="text-indigo-600"><FaTools /></span> Services
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           {[
@@ -49,26 +49,26 @@ export default function Home() {
       {/* About */}
       <section className="w-full max-w-3xl bg-indigo-50 p-6 rounded-xl shadow-md text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-          <FaCogs className="text-indigo-600" /> About
+          <span className="text-indigo-600"><FaCogs /></span> About
         </h2>
         <p className="text-gray-800 leading-relaxed">
           I am a Senior Software Engineer with over 12.5 years of experience in building scalable, high-performance
           distributed systems. I specialize in backend development, microservices architecture, and cloud platforms.
         </p>
         <p className="mt-4 p-3 bg-indigo-100 rounded text-indigo-700 font-semibold flex items-center justify-center gap-2">
-		  <img 
-			src="https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg" 
-			alt="Sweden flag" 
-			className="w-6 h-4 object-cover rounded-sm"
-		  />
-		  Based in Sweden | Available for consulting engagements
-		</p>
+          <img 
+            src="https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg" 
+            alt="Sweden flag" 
+            className="w-6 h-4 object-cover rounded-sm"
+          />
+          Based in Sweden | Available for consulting engagements
+        </p>
       </section>
 
       {/* Projects */}
       <section className="w-full max-w-4xl text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-6 flex items-center justify-center gap-3">
-          <FaBriefcase className="text-indigo-600" /> Projects
+          <span className="text-indigo-600"><FaBriefcase /></span> Projects
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           {[
@@ -87,7 +87,7 @@ export default function Home() {
       {/* Contact */}
       <section className="w-full max-w-2xl bg-indigo-50 p-6 rounded-xl shadow-md text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-          <FaPhone className="text-indigo-600" /> Contact
+          <span className="text-indigo-600"><FaPhone /></span> Contact
         </h2>
         <p className="text-gray-800 mb-2">
           Email:{" "}
